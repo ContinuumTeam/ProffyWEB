@@ -27,7 +27,7 @@ function LoginPage(){
                             <input type="checkbox"/>
                             <label htmlFor="">Lembrar-me</label>
                         </div>
-                        <span>Esqueci minha senha</span>
+                        <Link to="/recuperar">Esqueci minha senha</Link>
                     </div>
 
                     <button type="submit"> Entrar </button>

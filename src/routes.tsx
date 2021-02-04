@@ -7,6 +7,8 @@ import TeacherForm from './pages/teacherForm'
 import LoginPage from './pages/loginPage'
 import RegisterPage from './pages/registerPage'
 import SucessPage from './pages/Sucess'
+import forgetPage from './pages/forgetPage'
+import SucessForgetPage from './pages/SucessForget'
 
 function Routes(){
     return(
@@ -15,7 +17,9 @@ function Routes(){
             <Route path="/study" component={TeacherList}/>
             <Route path="/give-classes" component={TeacherForm}/>
             <Route path="/register" component={RegisterPage}/>
-            <Route path="/sucess" component={SucessPage}/>
+            <Route exact path="/sucess" component={SucessPage}/>
+            <Route path="/recuperar" component={forgetPage}/>
+            <Route path="/sucess-recuperar" component={SucessForgetPage}/>
         </BrowserRouter>
     )
 }
