@@ -37,8 +37,17 @@
     flex-direction: column;
 }
 
+.login-section{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 h1{
-    margin-bottom: 40px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: #333;
 }
 
 .form-login{
@@ -98,10 +107,26 @@ button{
 
     background: #DCDCE5;
     border-radius: 8px;
+
+    transition: all .3s ease;
+
+}
+button:hover{
+    color: #ffffff;
+    background: #04D361;
 }
 
 .create-account{
+    width: 352px;
+    height: 52px;
+
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: space-between;
+
+    bottom: 0;
+
+}
+
+.create-account span:first-child{
+    width: 150px;
 }

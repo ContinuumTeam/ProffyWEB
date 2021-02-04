@@ -37,7 +37,7 @@ function LoginPage(){
                         <span>Esqueci minha senha</span>
                     </div>
 
-                    <button type="submit"> entrar </button>
+                    <button type="submit"> Entrar </button>
                 </div>
 
                 <div className="create-account">
