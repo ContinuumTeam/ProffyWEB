@@ -34,7 +34,7 @@ function RegisterPage(){
                         <input type="password" placeholder="Repita a Senha"/>
                     </div>
 
-                    <button type="submit"> Concluir Cadastro </button>
+                    <button className="button-register" type="submit"><Link to="/sucess"> Concluir Cadastro</Link> </button>
                 </div>
 
             </div>
