@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import {Link} from 'react-router-dom'
-//img
-import logoImage from '../../assets/images/Intro.svg'
-import backgroundImage from '../../assets/images/Background.svg'
 
 import './style.css'
+import Proffy from '../../components/Proffy'
 
 function LoginPage(){
 
@@ -13,12 +11,7 @@ function LoginPage(){
 
         <div id="page-landing">
 
-            <div className="logo-landing">
-                <img src={backgroundImage} alt=""/>
-                <div className="logo">
-                    <img src={logoImage} alt="logo"/>
-                </div>
-            </div>
+            <Proffy />
 
             <div className="login-landing">
                 <div className="login-section">
@@ -41,7 +34,7 @@ function LoginPage(){
                 </div>
 
                 <div className="create-account">
-                    <span>Não possui conta? <a href="">Cadastre-se</a></span>
+                    <span>Não possui conta? <Link to="/register">Cadastre-se</Link></span>
                     <span>É de graças</span>
                 </div>
             </div>
