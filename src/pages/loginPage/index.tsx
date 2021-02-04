@@ -21,7 +21,29 @@ function LoginPage(){
             </div>
 
             <div className="login-landing">
-                <h1>hello world</h1>
+                <div className="login-section">
+                    <h1>Fazer Login</h1>
+
+                    <div className="form-login">
+                        <input type="email" placeholder="E-mail"/>
+                        <input type="password" placeholder="Senha"/>
+                    </div>
+
+                    <div className="especial-field">
+                        <div className="remember">
+                            <input type="checkbox"/>
+                            <label htmlFor="">Lembrar-me</label>
+                        </div>
+                        <span>Esqueci minha senha</span>
+                    </div>
+
+                    <button type="submit"> entrar </button>
+                </div>
+
+                <div className="create-account">
+                    <span>Não possui conta? <a href="">Cadastre-se</a></span>
+                    <span>É de graças</span>
+                </div>
             </div>
             
         </div>
